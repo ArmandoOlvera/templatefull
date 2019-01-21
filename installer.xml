@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.6" type="plugin" group="system" method="upgrade">
+    <name>Rikito :: Mega Shop Responsive VirtueMart Template</name>
+    <description>
+	<![CDATA[
+		<h3>Rikito - Responsive VirtueMart Joomla Template</h3>
+		<p>Rikito is a responsive mega shop Joomla 3 Template that is promoted by VirtueMart 3 component. It has everything you need for building any online store with wide range of products types, especially digital, fashion store. Rikito template comes out with eye-catching design interface, clear layout and unlimited color scheme. It is extremely flexible for you to change any parameters like: color, background, layout, menu, font, language... in order to meet your own ideas.</p>
+
+		<p>Moreover, Rikito provides lots of functional extensions and trendy features, such as: powerful Helix 3 Framework; 6 Home Page layout; Drag & Drop Layout Builder; including Mega Menu; Ajax Products Filter; Ajax VirtueMart Category Search; Virtuemart Product Compare; VirtueMart Products Wishlist; VirtueMart One Page Checkout; Multi-Currencies; Multi-Languages; Supports RTL Language; Newsletter Function; Akeeba Backup; 6 Powerful Extensions from VinaGecko.com and much more features....</p>
+
+		<p>But that's not all. We have a dedicated support center for all of your support needs. It includes our Documentation, Community Forum and an advanced Ticket System for any questions you have. We usually get back to you within 14-16 hours. (except holiday seasons which might take longer). So, If you're looking for a best fashion VirtueMart 3 Template, than look no further!</p>
+		
+		<h3>Main Features:</h3>
+		<ul>
+			<li>Responsive Design: This means that you only need one template for the desktop, tablet, smartphone and other mobile devices.</li>
+			<li>3 Home Page Layout: Rikito comes with 3 beautiful home page for online shop, that's easily fits for any kind online shop.</li>
+			<li>Fully Support VirtueMart 3: Built with the experience of more than 10 years VirtueMart 3 provides you with a powerful and comprehensive eCommerce solution. Rikito is Fully Support it!</li>
+			<li>Multi-Currencies: Rikito fully support you display the price of the product in multi-currencies. Eg: Euro (€), Dolar ($) ...</li>
+			<li>Multi-Languages: Rikito is also fully support multi-languages. We had already installed 2 languages: English and Hebrew. You also can use one default language to build your website with no time.</li>
+			<li>RTL Language Support: Supports RTL (Right to Left) Language based Designs like Arabic, Farsi & Hebrew.</li>
+			<li>Ajax Products Filter: Is offering both a Powerful Search and a Filtering module that filters with Categories, Manufacturers, Custom fields and Price range. It is very fast and highly configurable.</li>
+			<li>Ajax VirtueMart Category Search: Powerful ajax search to display Virtuemart product search result. The objective of this module is to display suggestions of products from the selected category while typing in the search bar and then direct you to the product details page.</li>
+			<li>Virtuemart Product Compare: Brilliant Joomla Component and plugin to show Compare products which user/Customer will choose by click on "Add to Compare" button and these selected product has been show parallel. User can also delete Compare product from Add to Compare Cart. Rikito is fully support this component.</li>
+			<li>VirtueMart Product Wishlist: The Ultimate Component to save your Favorite Products/Wishlist, share them with Family and Friends over Twitter, Facebook, Google+ or Email. Rikito is fully support this component.</li>
+			<li>VirtueMart One Page Checkout: Make it super fast for customers to purchase with your store. Create special pages where customers can choose products, checkout & pay all on the one page! Rikito is fully support this component.</li>
+			<li>Newsletter Function: AcyMailing is a Joomla component allowing you to maintain real communication with your contacts via e-mail marketing, newsletters, follow-up autoresponders, marketing campaigns, etc. Now Rikito is fully support it.</li>
+			<li>Akeeba Backup: The best component can be used to backup, restore and move your Joomla! Rikito is fully support this component. It save your time to move development website to live site.</li>
+			<li>Layout Builder: Allows anyone to customize the existing theme in any shape or dimensions without having any programming language!</li>
+			<li>Page Builder: allows you to easily create advanced custom layouts for any page using your designs. This Content Construction Kit (CCK) provides extend the basic content publishing system and publish all sorts of different content add-ons using the Joomla CMS.</li>
+			<li>Mega Menu: allows you to display a ton of content in menu item including text, images, module and articles.</li>
+			<li>Off-Canvas Menu: used primarily with Mobile and touch devices and can provide an extremely useful and beautiful experience for your users.</li>
+			<li>Rich typography: Advanced Typography based on Bootstrap would enable you styling your Tables, Forms, and Buttons along with other elements to make your website more beautiful.</li>
+			<li>HTML5 Base Template: We brought HTML5 in Our Templates to make elegant, modern and SEO friendly website that would be fully functional & represents awesome typography.</li>
+			<li>Built With Less CSS: You can reduce over requests to browsers while making CSS development and it makes your whole website more powerful and speedier than ever.</li>
+			<li>Use Helix 3 Framework: Helix Framework is one of the best light and feature rich responsive framework for Joomla Templating.</li>
+			<li>6 Premium Extensions from VinaGecko: Vina Camera Image Slider, Vina Article Carousel, Vina Product Carousel for VirtueMart, Vina Product Ticker for VirtueMart, Vina Manufacturers Carousel for Virtuemart and Vina Treeview for VirtueMart are the popular extensions for Joomla 3.x. Now you can use it in Rikito template.</li>
+			<li>CSS & Javascript Compression: Helix decreases your website loading time drastically by using Advanced CSS & JS compression systems that works with all types of browsers.</li>
+			<li>Powered By BootStrap 3: Bootstrap 3 is made upon responsive CSS Designs with less code which enhances the overall look of your website.</li>
+		</ul>
+	]]>
+	</description>
+    <scriptfile>installer.script.php</scriptfile>
+	
+    <files>
+		<filename plugin="tmp_helix3">installer.script.php</filename>
+    </files>
+    <plugins>
+        <plugin plugin="helix3" group="ajax" />
+        <plugin plugin="helix3" group="system" />
+    </plugins>
+</extension>
